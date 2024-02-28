@@ -1,7 +1,20 @@
-const createDocument = require("../lib/document.js");
+const {
+	Component,
+	Header,
+	TaskListItem,
+	TaskList,
+} = require("../lib/document");
 
-describe("createDocument", () => {
-	describe("", () => {
-		it("should ", () => {});
+describe("Component", () => {
+	describe("render", () => {
+		it("should throw an error when render is called directly", () => {
+			// arrange
+			const err = Error;
+
+			// act
+
+			// assert
+			expect(result).toEqual(err);
+		});
 	});
 });
